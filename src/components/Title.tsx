@@ -1,6 +1,6 @@
 type TitleProps = {
     name: string;
-    type: string;
+    type: 'bold' | 'normal';
 };
 
 const Title = ({ name, type } : TitleProps) => {
